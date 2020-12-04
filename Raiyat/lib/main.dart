@@ -1,18 +1,38 @@
 import 'package:flutter/material.dart';
+import 'package:Raiyat/FetchingApi.dart';
+import 'package:flutter/services.dart';
 
-void main() => runApp(MyApp());
+import 'package:responsive_framework/responsive_framework.dart';
 
-class MyApp extends StatelessWidget {
+void main() => runApp(Routes());
+
+class Routes extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
+  Widget build(context) {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
     return MaterialApp(
-      title: 'Welcome to Flutter',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Welcome to Flutter'),
-        ),
-        body: Center(
-          child: Text('Hello World!'),
+      debugShowCheckedModeBanner: false,
+      initialRoute: "/Home",
+      //showPerformanceOverlay: true,
+      routes: {
+        "/Home": (context) => FetchingApi(),
+      },
+      builder: (context, widget) => ResponsiveWrapper.builder(
+        BouncingScrollWrapper.builder(context, widget),
+        //maxWidth: 1000,
+        minWidth: 450,
+        defaultScale: true,
+        breakpoints: [
+          ResponsiveBreakpoint.resize(450, name: MOBILE),
+          ResponsiveBreakpoint.resize(800, name: TABLET),
+          ResponsiveBreakpoint.resize(1000, name: TABLET),
+          ResponsiveBreakpoint.resize(1200, name: DESKTOP),
+          ResponsiveBreakpoint.resize(2460, name: "4K"),
+        ],
+        background: Container(
+          color: Color(0xFFF5F5F5),
         ),
       ),
     );
