@@ -6,16 +6,19 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 
-class FetchingApi extends StatefulWidget {
-  FetchingApi({
+//import 'package:dio/native_imp.dart';
+//import 'package:dio/browser_imp.dart';
+
+class Home extends StatefulWidget {
+  Home({
     Key key,
   }) : super(key: key);
 
   @override
-  _FetchingApiState createState() => _FetchingApiState();
+  _HomeState createState() => _HomeState();
 }
 
-class _FetchingApiState extends State<FetchingApi> {
+class _HomeState extends State<Home> {
   bool npLoad = false;
   int npP = 0;
   List npL = new List();
@@ -48,8 +51,23 @@ class _FetchingApiState extends State<FetchingApi> {
               (X509Certificate cert, String host, int port) => true;
           return client;
         };
+        // var headers = {
+        //   'content-type': 'application/json',
+        //   'Access-Control-Allow-Origin': 'true'
+        // };
+        // var headers = {
+        //   "Access-Control-Allow-Origin":
+        //       "*", // Required for CORS support to work
+        //   "Access-Control-Allow-Credentials":
+        //       true, // Required for cookies, authorization headers with HTTPS
+        //   "Access-Control-Allow-Headers":
+        //       "Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token",
+        //   "Access-Control-Allow-Methods": "GET, OPTIONS"
+        // };
         Response response = await dio.get(
-            'https://data.gov.uz/ru/api/v1/json/dataset/11/version/4809?access_key=a8ca4fe6c9d7d91959cf56c50012eb6a');
+          'https://data.gov.uz/ru/api/v1/json/dataset/11/version/4809?access_key=a8ca4fe6c9d7d91959cf56c50012eb6a',
+          //options: Options(headers: headers),
+        );
         //'https://data.gov.uz/ru/api/v1/json/dataset/11/version?access_key=a8ca4fe6c9d7d91959cf56c50012eb6a');
         //'https://data.gov.uz/ru/api/v1/json/sphere/11/dataset?access_key=b9efad72d2632124a0783c61cac800a9');
 
@@ -95,8 +113,7 @@ class _FetchingApiState extends State<FetchingApi> {
           automaticallyImplyLeading: false,
           //iconTheme: new IconThemeData(color: Colors.black26),
           title: Text(
-            "Fetching Api",
-            //'New Products',
+            "Raiyat",
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: const TextStyle(
@@ -112,7 +129,7 @@ class _FetchingApiState extends State<FetchingApi> {
         body: ListView.builder(
           controller: npC,
           shrinkWrap: true,
-          scrollDirection: Axis.horizontal,
+          //scrollDirection: Axis.horizontal,
           //itemCount: 50,
           itemCount: npL.length + 1,
           itemBuilder: (context, index) {
@@ -120,11 +137,11 @@ class _FetchingApiState extends State<FetchingApi> {
               return _buildProgressIndicator();
             } else {
               return Container(
-                constraints: BoxConstraints(
-                  maxWidth: 249,
-                  minWidth: 249,
-                ),
-                width: 249,
+                // constraints: BoxConstraints(
+                //   maxWidth: 249,
+                //   minWidth: 249,
+                // ),
+                // width: 249,
                 margin: EdgeInsets.only(left: 7.5, right: 7.5),
                 child: Card(
                   shape: RoundedRectangleBorder(
@@ -132,45 +149,22 @@ class _FetchingApiState extends State<FetchingApi> {
                   ),
                   semanticContainer: true,
                   elevation: 3,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Container(
-                        padding: EdgeInsets.fromLTRB(15, 7.5, 15, 7.5),
-                        //height: 39,
-                        //width: 249,
-                        child: Text(
-                          npL[index]['a4'].toString(),
-                          //npL[index]['publication_date'].toString(),
-                          //npL[index]['title'].toString(),
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(
-                            color: Color.fromARGB(255, 240, 180, 45),
-                            fontSize: 18.0,
-                            fontWeight: FontWeight.normal,
-                          ),
-                        ),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.more_vert,
+                    ),
+                    title: Text(
+                      npL[index]['a4'].toString(),
+                      //npL[index]['publication_date'].toString(),
+                      //npL[index]['title'].toString(),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 240, 180, 45),
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.normal,
                       ),
-                      Container(
-                        padding: EdgeInsets.fromLTRB(15, 0, 15, 7.5),
-                        height: 80,
-                        //width: 249,
-                        child: Text(
-                          npL[index]['a1'].toString(),
-                          //npL[index]['publication_date'].toString(),
-                          //npL[index]['title'].toString(),
-                          maxLines: 3,
-                          overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(
-                            color: Color.fromARGB(255, 50, 50, 50),
-                            fontSize: 14.0,
-                            fontWeight: FontWeight.normal,
-                          ),
-                        ),
-                      ),
-                    ],
+                    ),
                   ),
                 ),
               );
