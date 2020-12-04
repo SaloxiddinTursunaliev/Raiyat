@@ -117,18 +117,20 @@ class _HomeState extends State<Home> {
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: const TextStyle(
-              fontSize: 17.0,
+              fontSize: 22.0,
               fontWeight: FontWeight.normal,
               fontStyle: FontStyle.normal,
               color: Color.fromARGB(255, 50, 50, 50),
             ),
           ),
           backgroundColor: Colors.white,
-          elevation: 0,
+          elevation: 3,
         ),
         body: ListView.builder(
           controller: npC,
           shrinkWrap: true,
+          padding:
+              EdgeInsets.only(top: 7.5, left: 7.5, right: 7.5, bottom: 7.5),
           //scrollDirection: Axis.horizontal,
           //itemCount: 50,
           itemCount: npL.length + 1,
@@ -142,7 +144,7 @@ class _HomeState extends State<Home> {
                 //   minWidth: 249,
                 // ),
                 // width: 249,
-                margin: EdgeInsets.only(left: 7.5, right: 7.5),
+                margin: EdgeInsets.only(top: 7.5),
                 child: Card(
                   shape: RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(0),
@@ -160,7 +162,8 @@ class _HomeState extends State<Home> {
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
-                        color: Color.fromARGB(255, 240, 180, 45),
+                        color: Color.fromARGB(255, 50, 50, 50),
+                        //color: Color.fromARGB(255, 240, 180, 45),
                         fontSize: 18.0,
                         fontWeight: FontWeight.normal,
                       ),

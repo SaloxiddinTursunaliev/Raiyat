@@ -1,6 +1,8 @@
+import 'package:Raiyat/Views/Categories/Categories.dart';
+import 'package:Raiyat/Views/Categories/ListCategories.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
-import 'package:Raiyat/Home/Main/Home.dart';
+import 'package:Raiyat/Home/Home.dart';
 import 'package:flutter/services.dart';
 
 class Routes extends StatelessWidget {
@@ -11,10 +13,12 @@ class Routes extends StatelessWidget {
     ]);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: "/Home",
+      initialRoute: "/Categories",
       //showPerformanceOverlay: true,
       routes: {
         "/Home": (context) => Home(),
+        "/Categories": (context) => Categories(),
+        "/ListCategories": (context) => ListCategories(),
       },
       builder: (context, widget) => ResponsiveWrapper.builder(
         BouncingScrollWrapper.builder(context, widget),
