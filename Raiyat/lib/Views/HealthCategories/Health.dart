@@ -1,4 +1,4 @@
-import 'package:Raiyat/Views/HealthCategories/Health.dart';
+import 'package:Raiyat/Views/HealthCategories/TreatmentPrevention/AllRegionsList.dart';
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:dio/adapter.dart';
@@ -10,16 +10,16 @@ import 'package:flutter/foundation.dart';
 //import 'package:dio/native_imp.dart';
 //import 'package:dio/browser_imp.dart';
 
-class Home extends StatefulWidget {
-  Home({
+class Health extends StatefulWidget {
+  Health({
     Key key,
   }) : super(key: key);
 
   @override
-  _HomeState createState() => _HomeState();
+  _HealthState createState() => _HealthState();
 }
 
-class _HomeState extends State<Home> {
+class _HealthState extends State<Health> {
   bool npLoad = false;
   int npP = 0;
   List npL = new List();
@@ -111,8 +111,7 @@ class _HomeState extends State<Home> {
       child: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          automaticallyImplyLeading: false,
-          //iconTheme: new IconThemeData(color: Colors.black26),
+          iconTheme: new IconThemeData(color: Colors.black26),
           title: Text(
             "Raiyat",
             maxLines: 1,
@@ -139,7 +138,7 @@ class _HomeState extends State<Home> {
                 onTap: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) {
-                      return Health();
+                      return Categories();
                     }),
                   );
                 },

@@ -1,5 +1,6 @@
-import 'package:Raiyat/Views/Categories/Categories.dart';
-import 'package:Raiyat/Views/Categories/ListCategories.dart';
+import 'package:Raiyat/Views/HealthCategories/Health.dart';
+import 'package:Raiyat/Views/HealthCategories/TreatmentPrevention/AllRegionsList.dart';
+import 'package:Raiyat/Views/HealthCategories/TreatmentPrevention/SpecificRegionList.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:Raiyat/Home/Home.dart';
@@ -13,10 +14,11 @@ class Routes extends StatelessWidget {
     ]);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: "/Categories",
+      initialRoute: "/Home",
       //showPerformanceOverlay: true,
       routes: {
         "/Home": (context) => Home(),
+        "Health": (context) => Health(),
         "/Categories": (context) => Categories(),
         "/ListCategories": (context) => ListCategories(),
       },

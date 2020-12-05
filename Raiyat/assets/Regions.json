@@ -1,0 +1,974 @@
+[
+	{
+	   "id":551,
+	   "code":"19-551",
+	   "sphere_id":2,
+	   "title":"Andijon viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Andijon viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"+998 (71) 252-50-54",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14261,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Название организации",
+				"title_uz":"МУАССАСАЛАР НОМИ",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Адрес",
+				"title_uz":"МАНЗИЛ",
+				"length":150,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":120,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ИНН",
+				"title_uz":"СТИР",
+				"length":9,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ОКПО",
+				"title_uz":"КТУТ",
+				"length":8,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":100,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Телефон №1",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Телефон №2",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":552,
+	   "code":"19-552",
+	   "sphere_id":2,
+	   "title":"Buxoro viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Buxoro viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"+998 (71) 252-50-54",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14266,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":80,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":100,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":553,
+	   "code":"19-553",
+	   "sphere_id":2,
+	   "title":"Jizzax viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Jizzax viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"+998 (71) 252-50-54",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14271,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":80,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":100,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":554,
+	   "code":"19-554",
+	   "sphere_id":2,
+	   "title":"Qoraqalpog'iston Respublikasi joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Qoraqalpog'iston Respublikasi joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14303,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":120,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":120,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":555,
+	   "code":"19-555",
+	   "sphere_id":2,
+	   "title":"Qashqadaryo viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Qashqadaryo viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14293,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":120,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":556,
+	   "code":"19-556",
+	   "sphere_id":2,
+	   "title":"Navoiy viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Navoiy viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14273,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":80,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":100,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":557,
+	   "code":"19-557",
+	   "sphere_id":2,
+	   "title":"Namangan viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Namangan viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":562,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"G1",
+				"title_ru":"Наименование организации",
+				"title_uz":"Tashkilot nomi",
+				"length":150,
+				"order":1
+			 },
+			 {
+				"code":"G2",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":100,
+				"order":2
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":558,
+	   "code":"19-558",
+	   "sphere_id":2,
+	   "title":"Samarqand viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Samarqand viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14308,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":120,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":120,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":559,
+	   "code":"19-559",
+	   "sphere_id":2,
+	   "title":"Sirdaryo viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Sirdaryo viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14276,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":9,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":120,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":100,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":800
+			 },
+			 {
+				"code":"g9",
+				"title_ru":"Факс",
+				"title_uz":"Faks",
+				"length":34,
+				"order":900
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":560,
+	   "code":"19-560",
+	   "sphere_id":2,
+	   "title":"Surxandaryo viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Surxandaryo viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14287,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":120,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":561,
+	   "code":"19-561",
+	   "sphere_id":2,
+	   "title":"Toshkent shahrida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Toshkent shahrida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14290,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":120,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":34,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Факс",
+				"title_uz":"Faks",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":562,
+	   "code":"19-562",
+	   "sphere_id":2,
+	   "title":"Farg'ona viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Farg'ona viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14291,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":120,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":120,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон",
+				"title_uz":"Telefon",
+				"length":34,
+				"order":700
+			 }
+		  ]
+	   }
+	},
+	{
+	   "id":563,
+	   "code":"19-563",
+	   "sphere_id":2,
+	   "title":"Xorazm viloyatida joylashgan davolash-profilaktika muassasalari reestri",
+	   "description":"Xorazm viloyatida joylashgan sog’liqni saqlash boshqarmalariga qarashli mustaqil moliyaviy faoliyat ko’rsatayotgan davolash-profilaktika muassasalari",
+	   "authority_id":19,
+	   "user_name":"Saydaxmedov Ibodilla Xikmatullayevich ",
+	   "user_phone":"(+998 71) 239-42-27",
+	   "user_mail":"i.saydakhmedov@egov.uz",
+	   "user_site":"www.minzdrav.uz",
+	   "key_words":null,
+	   "status":1,
+	   "authority_title":"Министерство здравоохранения Республики Узбекистан",
+	   "sphere_title":"Sog'liqni saqlash",
+	   "structure":{
+		  "id":14292,
+		  "data_set_type_id":1,
+		  "meta":[
+			 {
+				"code":"g1",
+				"title_ru":"Наименование учреждения",
+				"title_uz":"Muassasa nomi",
+				"length":200,
+				"order":100
+			 },
+			 {
+				"code":"g2",
+				"title_ru":"Адрес",
+				"title_uz":"Manzil",
+				"length":120,
+				"order":200
+			 },
+			 {
+				"code":"g3",
+				"title_ru":"Ф.И.О руководителя",
+				"title_uz":"Rahbar FIOsi",
+				"length":120,
+				"order":300
+			 },
+			 {
+				"code":"g4",
+				"title_ru":"ИНН",
+				"title_uz":"STIR",
+				"length":9,
+				"order":400
+			 },
+			 {
+				"code":"g5",
+				"title_ru":"ОКПО",
+				"title_uz":"KTUT",
+				"length":8,
+				"order":500
+			 },
+			 {
+				"code":"g6",
+				"title_ru":"е-mail",
+				"title_uz":"е-mail",
+				"length":120,
+				"order":600
+			 },
+			 {
+				"code":"g7",
+				"title_ru":"Телефон №1",
+				"title_uz":"Telefon №1",
+				"length":32,
+				"order":700
+			 },
+			 {
+				"code":"g8",
+				"title_ru":"Телефон №2",
+				"title_uz":"Telefon №2",
+				"length":34,
+				"order":800
+			 }
+		  ]
+	   }
+	}
+ ]
