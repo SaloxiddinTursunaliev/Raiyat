@@ -137,8 +137,93 @@ class _ListCategoriesState extends State<ListCategories> {
         searchSuggestionsMap = new List<SearchSuggestions>();
 
         for (int i = 0; i < jsonData.length; i++) {
-          subList.add(jsonData[i]);
-          searchSuggestionsMap.add(new SearchSuggestions.fromJson(jsonData[i]));
+          if (jsonData[i].length < 9) {
+            if (jsonData[i].length == 1) {
+              String enc = json.encode(jsonData[i]);
+              String rep = enc.replaceAll(
+                "}",
+                ",\"g1\":\" \",\"g2\":\" \",\"g3\":\" \",\"g4\":\" \",\"g5\":\" \",\"g6\":\" \",\"g7\":\" \",\"g8\":\" \"}",
+              );
+              final dec = json.decode(rep);
+
+              subList.add(dec);
+              searchSuggestionsMap.add(new SearchSuggestions.fromJson(dec));
+            } else if (jsonData[i].length == 2) {
+              String enc = json.encode(jsonData[i]);
+              String rep = enc.replaceAll(
+                "}",
+                ",\"g2\":\" \",\"g3\":\" \",\"g4\":\" \",\"g5\":\" \",\"g6\":\" \",\"g7\":\" \",\"g8\":\" \"}",
+              );
+              final dec = json.decode(rep);
+
+              subList.add(dec);
+              searchSuggestionsMap.add(new SearchSuggestions.fromJson(dec));
+            } else if (jsonData[i].length == 3) {
+              String enc = json.encode(jsonData[i]);
+              String rep = enc.replaceAll(
+                "}",
+                ",\"g3\":\" \",\"g4\":\" \",\"g5\":\" \",\"g6\":\" \",\"g7\":\" \",\"g8\":\" \"}",
+              );
+              final dec = json.decode(rep);
+
+              subList.add(dec);
+              searchSuggestionsMap.add(new SearchSuggestions.fromJson(dec));
+            } else if (jsonData[i].length == 4) {
+              String enc = json.encode(jsonData[i]);
+              String rep = enc.replaceAll(
+                "}",
+                ",\"g4\":\" \",\"g5\":\" \",\"g6\":\" \",\"g7\":\" \",\"g8\":\" \"}",
+              );
+              final dec = json.decode(rep);
+
+              subList.add(dec);
+              searchSuggestionsMap.add(new SearchSuggestions.fromJson(dec));
+            } else if (jsonData[i].length == 5) {
+              String enc = json.encode(jsonData[i]);
+              String rep = enc.replaceAll(
+                "}",
+                ",\"g5\":\" \",\"g6\":\" \",\"g7\":\" \",\"g8\":\" \"}",
+              );
+              final dec = json.decode(rep);
+
+              subList.add(dec);
+              searchSuggestionsMap.add(new SearchSuggestions.fromJson(dec));
+            } else if (jsonData[i].length == 6) {
+              String enc = json.encode(jsonData[i]);
+              String rep = enc.replaceAll(
+                "}",
+                ",\"g6\":\" \",\"g7\":\" \",\"g8\":\" \"}",
+              );
+              final dec = json.decode(rep);
+
+              subList.add(dec);
+              searchSuggestionsMap.add(new SearchSuggestions.fromJson(dec));
+            } else if (jsonData[i].length == 7) {
+              String enc = json.encode(jsonData[i]);
+              String rep = enc.replaceAll(
+                "}",
+                ",\"g7\":\" \",\"g8\":\" \"}",
+              );
+              final dec = json.decode(rep);
+
+              subList.add(dec);
+              searchSuggestionsMap.add(new SearchSuggestions.fromJson(dec));
+            } else if (jsonData[i].length == 8) {
+              String enc = json.encode(jsonData[i]);
+              String rep = enc.replaceAll(
+                "}",
+                ",\"g8\":\" \"}",
+              );
+              final dec = json.decode(rep);
+
+              subList.add(dec);
+              searchSuggestionsMap.add(new SearchSuggestions.fromJson(dec));
+            }
+          } else {
+            subList.add(jsonData[i]);
+            searchSuggestionsMap
+                .add(new SearchSuggestions.fromJson(jsonData[i]));
+          }
         }
 
         setState(() {

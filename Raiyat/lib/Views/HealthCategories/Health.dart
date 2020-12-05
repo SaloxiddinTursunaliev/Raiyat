@@ -155,7 +155,7 @@ class _HealthState extends State<Health> {
                       Container(
                         padding: EdgeInsets.fromLTRB(15, 20, 15, 15),
                         child: Text(
-                          "Health",
+                          "Davolash-profilaktika muassasalari reestri",
                           style: TextStyle(
                             color: Color.fromARGB(255, 7, 50, 100),
                             fontSize: 21.0,
