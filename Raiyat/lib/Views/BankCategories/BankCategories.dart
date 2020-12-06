@@ -57,25 +57,11 @@ class _BankState extends State<Bank> {
               (X509Certificate cert, String host, int port) => true;
           return client;
         };
-        // var headers = {
-        //   'content-type': 'application/json',
-        //   'Access-Control-Allow-Origin': 'true'
-        // };
-        // var headers = {
-        //   "Access-Control-Allow-Origin":
-        //       "*", // Required for CORS support to work
-        //   "Access-Control-Allow-Credentials":
-        //       true, // Required for cookies, authorization headers with HTTPS
-        //   "Access-Control-Allow-Headers":
-        //       "Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token",
-        //   "Access-Control-Allow-Methods": "GET, OPTIONS"
-        // };
+
         Response response = await dio.get(
           'https://data.gov.uz/ru/api/v1/json/dataset/11/version/4809?access_key=a8ca4fe6c9d7d91959cf56c50012eb6a',
           //options: Options(headers: headers),
         );
-        //'https://data.gov.uz/ru/api/v1/json/dataset/11/version?access_key=a8ca4fe6c9d7d91959cf56c50012eb6a');
-        //'https://data.gov.uz/ru/api/v1/json/sphere/11/dataset?access_key=b9efad72d2632124a0783c61cac800a9');
 
         final jsonData = json.decode(response.data);
         // print("\n\n" + jsonData['title']);
@@ -98,18 +84,6 @@ class _BankState extends State<Bank> {
 
   @override
   Widget build(BuildContext context) {
-    Widget _buildProgressIndicator() {
-      return new Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: new Center(
-          child: new Opacity(
-            opacity: npLoad ? 1.0 : 00,
-            child: new CircularProgressIndicator(),
-          ),
-        ),
-      );
-    }
-
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 230, 230, 230),
       appBar: AppBar(
