@@ -1,0 +1,93 @@
+[
+	{
+		"id": 1,
+		"title": "AsiaAllianse Bank - Мирзо Улугбекский филиал",
+		"phone": "+998712623279",
+		"lat": 41.34045050278365, "long": 69.3261024443912
+	},
+	{
+		"id": 2,
+		"title": "АКБ ASIA ALLIANCE BANK",
+		"phone": "+998712695872",
+		"lat": 41.313044548501715, "long": 69.32644681132022
+	},
+	{
+		"id": 3,
+		"title": "Asia Alliance Bank - «Uzjeldorkonteyner» Mini bank",
+		"phone": "+998712997726",
+		"lat": 41.308324106679315, "long": 69.30440332383881
+	},
+	{
+		"id": 4,
+		"title": "Asia Alliance Bank - Мирабадский филиал",
+		"phone": "+998712995182",
+		"lat": 41.27249456009023, "long": 69.31608163617368
+	},
+	{
+		"id": 5,
+		"title": "Asia Alliance Bank - «Dunyo» Mini bank",
+		"phone": "+998712360411",
+		"lat": 41.3169444162794, "long": 69.28713156043683
+	},
+
+	{
+		"id": 6,
+		"title": "Asia Alliance Bank - «Taraqqiyot» Mini bank",
+		"phone": "+998712562551",
+		"lat": 41.309254823665384, "long": 69.26991877975462
+	},
+	{
+		"id": 7,
+		"title": "Asia Alliance Bank",
+		"phone": " ",
+		"lat": 41.33003741062778, "long": 69.26185632934536
+	},
+	{
+		"id": 8,
+		"title": "Asia Alliance Bank - «Taraqqiyot» Mini bank",
+		"phone": "+998712562551",
+		"lat": 41.30924338073603, "long": 69.2686937052646
+	},
+	{
+		"id": 9,
+		"title": "Asia Alliance Bank",
+		"phone": "+998712286900",
+		"lat": 41.3288626276149, "long": 69.26335308732317
+	},
+	{
+		"id": 10,
+		"title": "Asia Alliance Bank - «Dunyo» Mini bank",
+		"phone": "+998712360411",
+		"lat": 41.31562746345004, "long": 69.2874153574158
+	},
+	{
+		"id": 11,
+		"title": "Asia Alliance Bank - «Minor» mini bank",
+		"phone": "+998712341895",
+		"lat": 41.34034922978093, "long": 69.2722687269707
+	},
+	{
+		"id": 12,
+		"title": "Asia Alliance Bank Олмазарский Филиал",
+		"phone": "+998712304201",
+		"lat": 41.35048534903584, "long": 69.25229407729688
+	},
+	{
+		"id": 13,
+		"title": "Asia Alliance Bank, valyuta ayrboshlash shahobchasi, Toshkent",
+		"phone": " ",
+		"lat": 41.24662051834373, "long": 69.33076956830533
+	},
+	{
+		"id": 14,
+		"title": "Asia Alliance Bank - «Chuqursoy» Mini bank",
+		"phone": "+998712484007",
+		"lat": 41.35565617023984, "long": 69.24636886580598
+	},
+	{
+		"id": 15,
+		"title": "АКБ ASIA ALLIANCE BANK",
+		"phone": "+998712773400",
+		"lat": 41.28251885113447, "long": 69.22116953001299
+	}
+]

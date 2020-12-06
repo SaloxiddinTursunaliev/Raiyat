@@ -167,7 +167,7 @@ class _HealthState extends State<Health> {
                       Container(
                         padding: EdgeInsets.fromLTRB(15, 7.5, 15, 7.5),
                         child: Text(
-                          "regionsMap[index].authorityTitle",
+                          "",
                           style: TextStyle(
                             color: Colors.black45,
                             fontWeight: FontWeight.bold,

@@ -28,6 +28,11 @@ dependencies:
   async_loader: ^0.1.1
   
   responsive_framework: ^0.0.8
+
+  flutter_map: ^0.10.1+1
+  latlong: ^0.6.1
+  geolocator: ^6.1.7
+  geocoder: ^0.2.1
   
 
   # The following adds the Cupertino Icons font to your application.
@@ -57,6 +62,12 @@ flutter:
   assets:
     - assets/
     - assets/Regions.json
+    - assets/AsiaAllianseBank.json
+    - assets/ATM.json
+    - assets/HamkorBank.json
+    - assets/XalqBanki.json
+    - assets/Capture.PNG
+    - assets/2.PNG
     
   
 

@@ -1,0 +1,105 @@
+[
+	{
+		"id": 1,
+		"title": "АКБ Hamkorbank Головное отделение",
+		"phone": "+998742980898",
+		"lat": 40.771860972452885, "long": 72.34253956267212
+	},
+	{
+		"id": 2,
+		"title": "Hamkorbank",
+		"phone": " ",
+		"lat": 40.766434781399134, "long": 72.34502839418488
+	},
+	{
+		"id": 3,
+		"title": "Наманганский филиал АКБ «Hamkorbank»",
+		"phone": "+998692288097",
+		"lat": 41.0041128492888, "long": 71.65665917047906
+	},
+	{
+		"id": 4,
+		"title": "Minibank HAMKORBANK, Marg'ilon",
+		"phone": "+998732436363",
+		"lat": 40.39732866520294, "long": 71.79820267000589
+	},
+	{
+		"id": 5,
+		"title": "Hamkorbank Истикбол филиали, Marg'ilon",
+		"phone": "+998732245314",
+		"lat": 40.40512187023666, "long": 71.76091515527972
+	},
+
+	{
+		"id": 6,
+		"title": "Hamkorbank Qo‘qon filiali",
+		"phone": "+998735421625",
+		"lat": 40.548302566777664, "long": 70.92671701201678
+	},
+	{
+		"id": 7,
+		"title": "Hamkorbank, Ulitsa Mustakillik, Almalyk",
+		"phone": "+998706133887",
+		"lat": 40.88680746262051, "long": 69.58805898460714
+	},
+	{
+		"id": 8,
+		"title": "Khamkorbank, Gulistan",
+		"phone": "+998672271111",
+		"lat": 40.53391774236163, "long": 68.75878040226453
+	},
+	{
+		"id": 9,
+		"title": "Hamkorbank Джизакский филиал",
+		"phone": "+998722260909",
+		"lat": 40.177223476974326, "long": 67.81545172439311
+	},
+	{
+		"id": 10,
+		"title": "Hamkorbank",
+		"phone": "+998662100800",
+		"lat": 39.694509400749034, "long": 66.93581773098313
+	},
+	{
+		"id": 11,
+		"title": "Hamkorbank ATB Aviasozlik, Toshkent",
+		"phone": "+998712965973",
+		"lat": 41.29709217264849, "long": 69.33672612569109
+	},
+	{
+		"id": 12,
+		"title": "HAMKORBANK Shayhontohur filiali, Toshkent",
+		"phone": "+998712469608",
+		"lat": 41.34290828608381, "long": 69.20508777581433
+	},
+	{
+		"id": 13,
+		"title": "HamkorBank, valyuta ayrboshlash shahobchasi, Toshkent",
+		"phone": " ",
+		"lat": 41.24662051834373, "long": 69.33076956830533
+	},
+	{
+		"id": 14,
+		"title": "Khamkor Bank, Toshkent",
+		"phone": " ",
+		"lat": 41.284304042685484, "long": 69.24767997472945
+	},
+	{
+		"id": 15,
+		"title": "HamkoHamkor Bank, Toshkentrbank",
+		"phone": "+998911341457",
+		"lat": 41.2700534115692, "long": 69.19227739450719
+	},
+	{
+		"id": 16,
+		"title": "Toshkent, Hamkorbank",
+		"phone": " ",
+		"lat": 41.335638222792255, "long": 69.2766465336391
+	},
+	{
+		"id": 17,
+		"title": "Toshkent, Hamkorbank",
+		"phone": "+998711200200",
+		"lat": 41.3667825248999, "long": 69.2998349393074
+	}
+]

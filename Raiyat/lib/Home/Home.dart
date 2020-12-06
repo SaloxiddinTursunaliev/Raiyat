@@ -1,3 +1,5 @@
+import 'package:Raiyat/Views/BankCategories/ATM/ATM.dart';
+import 'package:Raiyat/Views/BankCategories/BankCategories.dart';
 import 'package:Raiyat/Views/HealthCategories/Health.dart';
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
@@ -105,132 +107,208 @@ class _HomeState extends State<Home> {
       );
     }
 
-    return Container(
-      padding: EdgeInsets.fromLTRB(0, 20, 0, 20),
-      height: 520.5,
-      child: Scaffold(
+    return Scaffold(
+      backgroundColor: Colors.white,
+      //backgroundColor: Color.fromARGB(255, 230, 230, 230),
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        //iconTheme: new IconThemeData(color: Colors.black26),
+        title: Text(
+          "Raiyat",
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+          style: const TextStyle(
+            fontSize: 22.0,
+            fontWeight: FontWeight.normal,
+            fontStyle: FontStyle.normal,
+            color: Color.fromARGB(255, 50, 50, 50),
+          ),
+        ),
         backgroundColor: Colors.white,
-        appBar: AppBar(
-          automaticallyImplyLeading: false,
-          //iconTheme: new IconThemeData(color: Colors.black26),
-          title: Text(
-            "Raiyat",
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(
-              fontSize: 22.0,
-              fontWeight: FontWeight.normal,
-              fontStyle: FontStyle.normal,
-              color: Color.fromARGB(255, 50, 50, 50),
+        elevation: 3,
+      ),
+      body: Column(
+        children: [
+          Container(
+            height: 230,
+            child: Image.asset(
+              'assets/22.PNG',
+              //width: 249,
+              height: 230,
+              fit: BoxFit.fitWidth,
             ),
           ),
-          backgroundColor: Colors.white,
-          elevation: 3,
-        ),
-        body: ListView(
-          controller: npC,
-          shrinkWrap: true,
-          padding:
-              EdgeInsets.only(top: 7.5, left: 7.5, right: 7.5, bottom: 7.5),
-          children: [
-            Container(
-              margin: EdgeInsets.only(top: 7.5, bottom: 7.5),
-              child: InkWell(
-                onTap: () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) {
-                      return Health();
-                    }),
-                  );
-                },
-                child: Card(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: new BorderRadius.circular(7.5),
-                  ),
-                  semanticContainer: true,
-                  elevation: 8,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Container(
-                        padding: EdgeInsets.fromLTRB(15, 20, 15, 15),
-                        child: Text(
-                          "Health",
-                          style: TextStyle(
-                            color: Color.fromARGB(255, 7, 50, 100),
-                            fontSize: 21.0,
-                            fontWeight: FontWeight.normal,
+          ListView(
+            controller: npC,
+            shrinkWrap: true,
+            padding:
+                EdgeInsets.only(top: 7.5, left: 7.5, right: 7.5, bottom: 7.5),
+            children: [
+              Container(
+                margin: EdgeInsets.only(top: 7.5, bottom: 7.5),
+                child: InkWell(
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) {
+                        return Health();
+                      }),
+                    );
+                  },
+                  child: Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(7.5),
+                    ),
+                    semanticContainer: true,
+                    elevation: 8,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Container(
+                          height: 100,
+                          child: Image.asset(
+                            'assets/Capture.PNG',
+                            width: 100,
+                            height: 100,
+                            fit: BoxFit.contain,
                           ),
                         ),
-                      ),
-                      Divider(thickness: 1.3),
-                      Container(
-                        padding: EdgeInsets.fromLTRB(15, 7.5, 15, 7.5),
-                        child: Text(
-                          "regionsMap[index].authorityTitle",
-                          style: TextStyle(
-                            color: Colors.black45,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16,
+                        Container(
+                          padding: EdgeInsets.fromLTRB(15, 20, 15, 15),
+                          child: Text(
+                            "Tibbiyotga oid",
+                            style: TextStyle(
+                              color: Color.fromARGB(255, 7, 50, 100),
+                              fontSize: 21.0,
+                              fontWeight: FontWeight.normal,
+                            ),
                           ),
                         ),
-                      ),
-                    ],
+                        Divider(thickness: 1.3),
+                        Container(
+                          padding: EdgeInsets.fromLTRB(15, 7.5, 15, 7.5),
+                          child: Text(
+                            "",
+                            style: TextStyle(
+                              color: Colors.black45,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
-            ),
-          ],
-        ),
-        // body: ListView.builder(
-        //   controller: npC,
-        //   shrinkWrap: true,
-        //   padding:
-        //       EdgeInsets.only(top: 7.5, left: 7.5, right: 7.5, bottom: 7.5),
-        //   //scrollDirection: Axis.horizontal,
-        //   //itemCount: 50,
-        //   itemCount: npL.length + 1,
-        //   itemBuilder: (context, index) {
-        //     if (index == npL.length) {
-        //       return _buildProgressIndicator();
-        //     } else {
-        //       return Container(
-        //         // constraints: BoxConstraints(
-        //         //   maxWidth: 249,
-        //         //   minWidth: 249,
-        //         // ),
-        //         // width: 249,
-        //         margin: EdgeInsets.only(top: 7.5),
-        //         child: Card(
-        //           shape: RoundedRectangleBorder(
-        //             borderRadius: new BorderRadius.circular(0),
-        //           ),
-        //           semanticContainer: true,
-        //           elevation: 3,
-        //           child: ListTile(
-        //             leading: Icon(
-        //               Icons.more_vert,
-        //             ),
-        //             title: Text(
-        //               npL[index]['a4'].toString(),
-        //               //npL[index]['publication_date'].toString(),
-        //               //npL[index]['title'].toString(),
-        //               maxLines: 1,
-        //               overflow: TextOverflow.ellipsis,
-        //               style: const TextStyle(
-        //                 color: Color.fromARGB(255, 50, 50, 50),
-        //                 //color: Color.fromARGB(255, 240, 180, 45),
-        //                 fontSize: 18.0,
-        //                 fontWeight: FontWeight.normal,
-        //               ),
-        //             ),
-        //           ),
-        //         ),
-        //       );
-        //     }
-        //   },
-        // ),
+              Container(
+                margin: EdgeInsets.only(top: 7.5, bottom: 7.5),
+                child: InkWell(
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) {
+                        return Bank();
+                      }),
+                    );
+                  },
+                  child: Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(7.5),
+                    ),
+                    semanticContainer: true,
+                    elevation: 8,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Container(
+                          height: 100,
+                          child: Image.asset(
+                            'assets/2.PNG',
+                            width: 100,
+                            height: 100,
+                            fit: BoxFit.contain,
+                          ),
+                        ),
+                        Container(
+                          padding: EdgeInsets.fromLTRB(15, 20, 15, 15),
+                          child: Text(
+                            "Bankga oid",
+                            style: TextStyle(
+                              color: Color.fromARGB(255, 7, 50, 100),
+                              fontSize: 21.0,
+                              fontWeight: FontWeight.normal,
+                            ),
+                          ),
+                        ),
+                        Divider(thickness: 1.3),
+                        Container(
+                          padding: EdgeInsets.fromLTRB(15, 7.5, 15, 7.5),
+                          child: Text(
+                            "",
+                            style: TextStyle(
+                              color: Colors.black45,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+          // body: ListView.builder(
+          //   controller: npC,
+          //   shrinkWrap: true,
+          //   padding:
+          //       EdgeInsets.only(top: 7.5, left: 7.5, right: 7.5, bottom: 7.5),
+          //   //scrollDirection: Axis.horizontal,
+          //   //itemCount: 50,
+          //   itemCount: npL.length + 1,
+          //   itemBuilder: (context, index) {
+          //     if (index == npL.length) {
+          //       return _buildProgressIndicator();
+          //     } else {
+          //       return Container(
+          //         // constraints: BoxConstraints(
+          //         //   maxWidth: 249,
+          //         //   minWidth: 249,
+          //         // ),
+          //         // width: 249,
+          //         margin: EdgeInsets.only(top: 7.5),
+          //         child: Card(
+          //           shape: RoundedRectangleBorder(
+          //             borderRadius: new BorderRadius.circular(0),
+          //           ),
+          //           semanticContainer: true,
+          //           elevation: 3,
+          //           child: ListTile(
+          //             leading: Icon(
+          //               Icons.more_vert,
+          //             ),
+          //             title: Text(
+          //               npL[index]['a4'].toString(),
+          //               //npL[index]['publication_date'].toString(),
+          //               //npL[index]['title'].toString(),
+          //               maxLines: 1,
+          //               overflow: TextOverflow.ellipsis,
+          //               style: const TextStyle(
+          //                 color: Color.fromARGB(255, 50, 50, 50),
+          //                 //color: Color.fromARGB(255, 240, 180, 45),
+          //                 fontSize: 18.0,
+          //                 fontWeight: FontWeight.normal,
+          //               ),
+          //             ),
+          //           ),
+          //         ),
+          //       );
+          //     }
+          //   },
+          // ),
+        ],
       ),
     );
   }
